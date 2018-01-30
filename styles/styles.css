@@ -1,0 +1,35 @@
+.container {
+	width: 100%;
+	margin: 7% auto;
+	/*  height: 100vh;*/
+	/*color: #fff;
+	background-color: #000;*/
+}
+
+#weatherInfo {
+	height: 300px;
+	font-size: 3em;
+/*  color: white;*/
+/*	background: #fff;*/
+	text-align: center;
+}
+
+#temp {
+	font-size: 2em;
+}
+
+#unit {
+	font-size: 1.4em;
+}
+
+#click {
+	width: 16%;
+	min-width: 90px;
+	max-width: 200px;
+	margin: 10% 42%;
+}
+
+.well {
+	display: inline-block;
+	
+}

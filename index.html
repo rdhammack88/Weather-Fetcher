@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+	<title>Weather Fetch</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css">
+<!--	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-D9XILkoivXN+bcvB2kSOowkIvIcBbNdoDQvfBNsxYAIieZbx8/SI4NeUvrRGCpDi" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+ <div class="jumbotron">
+	<h3 class="text-center">Local Weather Search</h3>
+	<form id="searchForm" class=""> <!-- form-inline -->
+<!--
+	<div class="form-control">
+		<div class="input-group">
+-->
+			<input type="text" class="input-lg col-xs-11 col-xs-push-1" id="searchText" placeholder="Search by City or Zip Code">
+			<!-- class="form-control" -->
+			<button type="submit" class="col-xs-1  btn btn-lg btn-primary glyphicon glyphicon-search"></button>
+			<!-- input-group-addon col-xs-pull-1 -->
+<!--
+		</div>
+		</div>
+-->
+	</form>
+</div>
+  <div id="weatherInfo" class="col-xs-12 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 well">
+    <p id="temperature"><span id="temp"></span><span id="unit"></span></p>
+	<p><span id="city"></span>, <span id="country"></span></p>
+	<p id="icon"></p>
+  </div>
+  <br>
+<!--  <button id="click" class="">Click to get Weather</button>-->
+	
+
+</div>
+
+<!--
+<div class="container">
+	<div class="well col-xs-12 col-sm-2 col-sm-push-1"></div>
+	<div class="well col-xs-12 col-sm-2 col-sm-push-1"></div>
+	<div class="well col-xs-12 col-sm-2 col-sm-push-1"></div>
+	<div class="well col-xs-12 col-sm-2 col-sm-push-1"></div>
+	<div class="well col-xs-12 col-sm-2 col-sm-push-1"></div>
+</div>
+-->
+
+<div class="container">
+	<div class="well col-xs-2 col-xs-push-1"></div>
+	<div class="well col-xs-2 col-xs-push-1"></div>
+	<div class="well col-xs-2 col-xs-push-1"></div>
+	<div class="well col-xs-2 col-xs-push-1"></div>
+	<div class="well col-xs-2 col-xs-push-1"></div>
+</div>
+
+
+
+
+
+
+
+<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<!--<script src="main.js"></script>-->
+<script src="app.js"></script>
+	
+</body>
+</html>
