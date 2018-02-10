@@ -7,10 +7,15 @@
 }
 
 #weatherInfo {
-	height: 300px;
-	font-size: 3em;
+/*	height: 300px;*/
+	font-size: 2em;
 /*  color: white;*/
 /*	background: #fff;*/
+	text-align: center;
+	margin: 75px 0;
+}
+
+p {
 	text-align: center;
 }
 
@@ -22,6 +27,11 @@
 	font-size: 1.4em;
 }
 
+
+.forecast {
+	text-align: center;
+}
+
 #click {
 	width: 16%;
 	min-width: 90px;
@@ -31,5 +41,5 @@
 
 .well {
 	display: inline-block;
-	
+	width: calc(100%/6);
 }
