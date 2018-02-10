@@ -59,5 +59,13 @@ if(isset($_GET['search'])) { // && $_GET['city']
 	<p><?php //$state; ?></p>
 	<p><?php echo $weather; ?></p>
 	
+
+	<script
+	  src="http://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+
+	<!--<script src="main.js"></script>-->
+	<script src="js/app.js"></script>
 </body>
 </html>
